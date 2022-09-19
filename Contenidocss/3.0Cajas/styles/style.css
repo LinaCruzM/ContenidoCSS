@@ -1,0 +1,90 @@
+/*
+Remover el estilo predeterminad del navegador. 
+
+Recordar que los elementos bloque abarcan el 100% del contenedor y da un salto de línea.
+
+Los elementos de línea no generan saltos, no se puede utilizar width y height.
+
+Cuando se colocan propiedades invaden los elementos en bloque, para esto utilizamos la 
+propiedad display
+*/
+
+*{ /* * = universal */
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+.content{
+    margin: 0px auto;
+    width: 1000px;
+    padding: 20px;
+    border: 2px dotted pink; 
+    background-color: lavenderblush;
+}   
+
+.h1{
+    text-align: center;
+    background-color: lavenderblush;
+    border: 2px solid black;
+    width: 1040px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.box1{
+    width: 400px;
+    height: auto;
+    padding: 5px;
+    margin: 0 auto; /* Para entrar a la caja. Se debe establecer un width*/
+    background-color: lavenderblush;
+    border: 2px solid pink;
+    box-sizing: border-box;
+}
+
+.box2{
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    margin: 0 auto; 
+    background-color: lavenderblush;
+    border: 2px solid pink;
+}
+
+.box3{
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    margin: 0 auto; 
+    background-color: lavenderblush;
+    border: 2px solid pink;
+}
+
+.footer{
+    padding: 5px;
+    margin: auto;
+    width: 473px;
+    height: 62px;
+    background-color: hotpink;
+}
+
+.enlaceFooter{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+/* Herencia */
+
+.section{
+    background-color: hotpink;
+    font-size: oblique;
+    border-radius: 2%;
+    padding: 13px;
+    text-align: center;
+}
+/*h2{
+
+}

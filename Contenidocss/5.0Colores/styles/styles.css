@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Acomoda el tamaño de la caja según el ancho y el alto*/
+}
+
+.title{
+    color: rgba(0, 0, 10, 0.265); /* La a es la transparencia */
+    color: indianred;
+    background: hsl(121, 70%, 78%);
+    padding: 4px;
+}
+
+.art1{
+    background-color: #c01160;
+}

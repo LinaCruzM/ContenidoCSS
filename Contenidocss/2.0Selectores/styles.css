@@ -1,0 +1,83 @@
+/*
+1. Selector por etiqueta: Cambia el estilo a todas las etiquetas en cuestión, se coloca directamente
+el nombre de la etiqueta.
+2. Selector por clase: Cambia o modifica el estilo del elemento en donde se mencione la clase 
+(Atributo Class), para crear un estilo por clase se coloca .nombreEstilo .
+3. Selector por identificador (Id): Modifica el estilo del elemento que posea el id.
+4. Selector universal ( * )  
+*/
+/*****************************************************************************/
+/* 1. Etiqueta */
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20x;
+    background-color: lavenderblush;
+}
+/* 2. Clase */   
+.subtitulo{
+    text-align: center;
+    color: white;
+    background-color: pink;
+}
+/* 3. Id */
+#info{
+    border-radius: 5px;
+    background-color: pink;
+    color: black;
+    padding: 10px;
+}
+/* 4. Selector por atributo */
+[class]{
+    /* Se aplicará a todos los eleentos del atributo class */ 
+    background-color: hotpink;
+}
+
+/* Combinadores */
+a[href]{
+    text-align: center;
+    margin-left: 2%;
+    color: black;
+}
+
+/* Utilizando sufijos*/
+a[href$=".com"]{
+    margin-left: 4%;
+    color: black;
+}
+
+/* Utilizando prefijos */
+[class^="as"]{
+    font-size: 25px;
+}
+
+/* Combinador que seleccione al hermano siguiente (Combinador de hermanos adyacentes)*/
+li:first-of-type + li{
+    font-size: 200%;
+}
+/* Combinador donde se seleccionan todos los hermanos siguientes (Combinador general de hermanos)*/
+p ~ span {
+    color: hotpink;
+  }
+
+/* Agrupación de selectores */
+/* Combinación de selectores */
+h1, h2, h3{
+    text-align: center;
+    background-color: hotpink;
+}
+
+/* Selector descendiente */
+p em{
+    text-decoration: underline;
+}
+
+/* Selector de etiqueta por clase */
+p.estilo1{
+    font-size: 250%;
+}
+
+/* Selectores hijos directos */
+span { background-color: white; }
+div > span {
+  background-color: deeppink;
+}

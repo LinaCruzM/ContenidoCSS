@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*.container{
+   /*background: linear-gradient(90deg, orange, rgb(255, 255, 65), white,hotpink, deeppink);*/
+/*}*/
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cabecera{
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+    background-image: linear-gradient(90deg, rgba(255, 192, 203, 0.293) 60%, white), url(./Img/Kensy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 0.1px;
+    color:beige;
+    font-weight: 200;
+}
+
+.title{
+    font-size: 60px;
+    margin-top: 150px;
+}
+
+nav a{
+    color: black;
+}
+
+ul > li{
+    list-style: none;
+    display:inline-block;
+    padding: 15px 30px;
+    margin-top: 2%;
+    border-radius: 15px;
+    background-color: rgba(255, 240, 245, 0.593);
+}
+
+.div{
+    text-align: right;
+    padding-right: 5px;
+    margin-top: 3%;
+}
+
+.ingreso{
+    display: inline-block;
+    padding:15px;
+    background-color: lavenderblush;
+    color:hotpink;
+    text-transform: uppercase;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.arti{
+    display: inline-block;
+    width: 45%;
+    margin: 5px 1.2%;
+    background: pink;
+    padding: 20px;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 deeppink;
+}
+
+.subtitle{
+    text-align: center;
+    letter-spacing: 10px;
+    text-shadow: 7px 5px 5px black;
+}
+
+.parrafo1{
+    word-spacing: 10px;
+    font-style: oblique;
+}
+
+.parrafo2{
+    line-height: 30px;
+    font-style: oblique;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(45deg, orange, white, deeppink);
+}
+
+.footer a{
+    color: white;
+    padding: 5px;
+}
+
+.textRedes{
+    font-size: 20px;
+    display:inline-block;
+    padding: 15px;
+    width: 48%;
+    box-sizing: border-box;
+    color:white;
+}
+
+.redes{
+    display: inline-block;
+    text-align: end;
+    font-size: 25px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.medio{
+    width: 100%;
+    height: 160px;
+}
+
+.copy{
+    width: 100%;
+    height: 50px;
+    color: aliceblue;
+}
+
+

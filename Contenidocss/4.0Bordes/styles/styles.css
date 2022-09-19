@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    margin: 0 auto;
+    background-color: hotpink;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box; /*Acomoda el tamaño de la caja (Alto y ancho)*/
+    /*Los bordes trabajan con propiedades o atributos*/
+    border-color: black;
+    border-style: ridge dotted;
+    /* Top - Horizontal - Bottom */
+    border-style: hidden dotted inset;
+    border: 10px solid hotpink;
+    border-radius: 8% 2%;
+    box-shadow: 2px 3px 5px 10px deeppink;
+    margin-top: 20px;
+}
